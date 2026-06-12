@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "services": "Services",
+    "destinations": "Destinations",
+    "faq": "FAQ",
+    "login": "Se connecter",
+    "account": "Mon espace",
+    "logout": "Déconnexion"
+  },
+  "hero": {
+    "badge": "Agence de voyage certifiée — Europe & Monde",
+    "title": "Voyagez avec confiance,",
+    "titleAccent": "partez sans frontières",
+    "subtitle": "Voyages organisés, sur mesure et accompagnement visa pour l'Europe et le monde entier. De l'idée au départ, nous gérons tout.",
+    "cta_primary": "Soumettre mon dossier",
+    "cta_secondary": "Voir nos voyages",
+    "stat_clients": "Voyageurs satisfaits",
+    "stat_countries": "Pays couverts",
+    "stat_visa": "Visas obtenus",
+    "stat_rating": "Note moyenne"
+  },
+  "tunnel": {
+    "label": "Comment ça marche",
+    "title": "Votre voyage en",
+    "titleAccent": "4 étapes simples",
+    "subtitle": "Pas de complexité, pas de perte de temps. Vous soumettez, nous construisons votre voyage idéal.",
+    "cta": "Commencer maintenant — c'est gratuit →",
+    "steps": [
+      {
+        "num": "01",
+        "icon": "✉️",
+        "title": "Créez votre compte",
+        "desc": "Inscription gratuite en 2 minutes. Votre espace client sécurisé vous attend."
+      },
+      {
+        "num": "02",
+        "icon": "📋",
+        "title": "Soumettez votre dossier",
+        "desc": "Décrivez votre projet de voyage et uploadez vos documents en toute sécurité."
+      },
+      {
+        "num": "03",
+        "icon": "🗺️",
+        "title": "Recevez votre étude",
+        "desc": "Notre équipe prépare votre itinéraire personnalisé et votre devis sous 48h."
+      },
+      {
+        "num": "04",
+        "icon": "✈️",
+        "title": "Partez l'esprit léger",
+        "desc": "Nous gérons billets, hôtels, visas. Vous n'avez qu'à faire vos valises."
+      }
+    ]
+  },
+  "services": {
+    "label": "Nos services",
+    "title": "Tout ce dont vous avez besoin pour",
+    "titleAccent": "voyager sereinement",
+    "items": [
+      {
+        "icon": "🗓️",
+        "title": "Voyages organisés",
+        "desc": "Circuits clé en main vers l'Europe et le monde. Vols, hôtels, transferts et guides inclus. Partez en groupe ou en famille sans vous soucier de rien.",
+        "tag": "Groupes & familles"
+      },
+      {
+        "icon": "🧭",
+        "title": "Tourisme sur mesure",
+        "desc": "Votre voyage entièrement conçu selon vos envies, votre budget et vos dates. Itinéraire unique, hébergements triés sur le volet, expériences exclusives.",
+        "tag": "100% personnalisé"
+      },
+      {
+        "icon": "📄",
+        "title": "Visa & démarches",
+        "desc": "Accompagnement complet pour vos demandes de visa Schengen, UK, USA et plus. Étude de dossier, constitution des pièces, rendez-vous consulaires.",
+        "tag": "98% de succès"
+      }
+    ]
+  },
+  "destinations": {
+    "label": "Destinations phares",
+    "title": "Où voulez-vous",
+    "titleAccent": "partir ?",
+    "viewAll": "Voir toutes les destinations →"
+  },
+  "why": {
+    "label": "Pourquoi nous choisir",
+    "title": "Une agence qui",
+    "titleAccent": "vous accompagne vraiment",
+    "subtitle": "Pas un simple vendeur de billets. Un partenaire de voyage qui connaît les démarches, anticipe les obstacles et reste disponible.",
+    "features": [
+      {
+        "icon": "🔒",
+        "title": "Dossiers 100% sécurisés",
+        "desc": "Vos documents (passeport, pièce d'identité) sont chiffrés et accessibles uniquement par vous et notre équipe."
+      },
+      {
+        "icon": "💬",
+        "title": "Suivi WhatsApp en temps réel",
+        "desc": "Chaque étape de votre dossier vous est communiquée instantanément. Posez vos questions directement."
+      },
+      {
+        "icon": "⚡",
+        "title": "Réponse sous 48h garantie",
+        "desc": "Devis, étude de dossier ou questions visa — notre équipe vous répond rapidement, toujours."
+      }
+    ],
+    "ratingLabel": "Note moyenne sur 200+ avis clients"
+  },
+  "cta": {
+    "label": "Prêt à partir ?",
+    "title": "Votre prochain voyage commence",
+    "titleAccent": "aujourd'hui",
+    "subtitle": "Créez votre compte gratuit, soumettez votre dossier et laissez-nous construire l'expérience de voyage dont vous rêvez.",
+    "primary": "Créer mon compte gratuitement",
+    "whatsapp": "Discuter sur WhatsApp"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Questions",
+    "titleAccent": "fréquentes",
+    "items": [
+      {
+        "q": "Comment fonctionne l'espace client ?",
+        "a": "Après inscription, vous accédez à un tableau de bord sécurisé où vous pouvez soumettre vos dossiers, uploader vos documents, suivre le statut de vos demandes et recevoir nos réponses en temps réel."
+      },
+      {
+        "q": "Mes documents sont-ils vraiment sécurisés ?",
+        "a": "Oui. Vos documents sont chiffrés (AES-256) et stockés sur des serveurs certifiés. Seuls vous et notre équipe y avez accès. Ils ne sont jamais partagés avec des tiers sans votre accord explicite."
+      },
+      {
+        "q": "Combien de temps prend l'étude de mon dossier ?",
+        "a": "Nous nous engageons à vous répondre sous 48 heures ouvrables après réception de votre dossier complet. Pour les demandes urgentes, contactez-nous directement sur WhatsApp."
+      },
+      {
+        "q": "Puis-je voyager en Europe sans visa préalable ?",
+        "a": "Cela dépend de votre nationalité. Pour la plupart des ressortissants d'Afrique de l'Ouest, un visa Schengen est nécessaire. Nous vous accompagnons de A à Z avec un taux de succès de 98%."
+      },
+      {
+        "q": "Quels modes de paiement acceptez-vous ?",
+        "a": "Nous acceptons les virements bancaires, Mobile Money (MTN, Moov, Wave) et les paiements en ligne sécurisés. Un acompte est demandé à la confirmation du dossier."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Votre partenaire de confiance pour voyager en Europe et dans le monde depuis l'Afrique de l'Ouest.",
+    "services": "Services",
+    "quickLinks": "Accès rapide",
+    "contact": "Contact",
+    "myAccount": "Mon espace client",
+    "createAccount": "Créer un compte",
+    "contactUs": "Nous contacter",
+    "privacy": "Politique de confidentialité",
+    "terms": "CGU",
+    "rights": "Tous droits réservés."
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenue",
+      "subtitle": "Connectez-vous à votre espace client",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgot": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "register": "S'inscrire gratuitement",
+      "error": "Email ou mot de passe incorrect."
+    },
+    "register": {
+      "title": "Créer mon compte",
+      "subtitle": "Accédez à votre espace client sécurisé",
+      "fullName": "Nom complet",
+      "email": "Adresse email",
+      "phone": "Téléphone (avec indicatif)",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "Créer mon compte",
+      "hasAccount": "Déjà un compte ?",
+      "login": "Se connecter",
+      "success": "Compte créé ! Vérifiez votre email.",
+      "error": "Une erreur est survenue. Réessayez."
+    }
+  },
+  "dashboard": {
+    "welcome": "Bonjour",
+    "subtitle": "Gérez vos dossiers et suivez vos voyages",
+    "newDossier": "Nouveau dossier",
+    "myDossiers": "Mes dossiers",
+    "noDossiers": "Aucun dossier pour l'instant",
+    "noDossiersDesc": "Soumettez votre première demande de voyage ou d'accompagnement visa.",
+    "statuts": {
+      "en_attente": "En attente",
+      "en_etude": "En étude",
+      "confirme": "Confirmé",
+      "paye": "Payé",
+      "termine": "Terminé",
+      "annule": "Annulé"
+    },
+    "dossier": {
+      "title": "Nouveau dossier",
+      "type": "Type de demande",
+      "types": {
+        "voyage_organise": "Voyage organisé",
+        "sur_mesure": "Tourisme sur mesure",
+        "visa": "Visa & démarches"
+      },
+      "message": "Décrivez votre projet",
+      "messagePlaceholder": "Destination souhaitée, dates, nombre de personnes, budget approximatif...",
+      "documents": "Documents (passeport, pièce d'identité, etc.)",
+      "documentsHint": "Fichiers acceptés : PDF, JPG, PNG. Max 10 Mo par fichier.",
+      "submit": "Soumettre mon dossier",
+      "success": "Dossier soumis ! Vous recevrez une confirmation par email.",
+      "error": "Erreur lors de la soumission. Réessayez."
+    }
+  },
+  "admin": {
+    "title": "Administration",
+    "dossiers": "Dossiers",
+    "voyages": "Voyages",
+    "users": "Utilisateurs",
+    "stats": {
+      "total": "Total dossiers",
+      "pending": "En attente",
+      "confirmed": "Confirmés",
+      "revenue": "CA estimé"
+    }
+  },
+
+  "catalog": {
+    "meta_title": "Catalogue voyages — VoyageElite",
+    "meta_description": "Découvrez nos voyages organisés, circuits sur mesure et destinations.",
+    "badge": "Catalogue",
+    "title_start": "Nos",
+    "title_accent": "voyages",
+    "subtitle": "Circuits organisés, voyages sur mesure et destinations à travers l'Europe et le monde.",
+    "empty_title": "Catalogue en préparation",
+    "empty_description": "Nos voyages seront bientôt disponibles. En attendant, contactez-nous pour un voyage sur mesure.",
+    "empty_cta": "Soumettre une demande",
+    "card_days": "jours",
+    "card_seats": "places dispo.",
+    "card_from": "À partir de",
+    "card_cta": "Réserver"
+  }
+}

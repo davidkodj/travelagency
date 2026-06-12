@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "services": "Services",
+    "destinations": "Destinations",
+    "faq": "FAQ",
+    "login": "Sign in",
+    "account": "My account",
+    "logout": "Sign out"
+  },
+  "hero": {
+    "badge": "Certified travel agency — Europe & Worldwide",
+    "title": "Travel with confidence,",
+    "titleAccent": "explore without limits",
+    "subtitle": "Organised trips, tailor-made travel and visa assistance for Europe and beyond. From idea to departure, we handle everything.",
+    "cta_primary": "Submit my request",
+    "cta_secondary": "Browse our trips",
+    "stat_clients": "Happy travellers",
+    "stat_countries": "Countries covered",
+    "stat_visa": "Visas obtained",
+    "stat_rating": "Average rating"
+  },
+  "tunnel": {
+    "label": "How it works",
+    "title": "Your trip in",
+    "titleAccent": "4 simple steps",
+    "subtitle": "No complexity, no wasted time. You submit, we build your perfect trip.",
+    "cta": "Get started now — it's free →",
+    "steps": [
+      {
+        "num": "01",
+        "icon": "✉️",
+        "title": "Create your account",
+        "desc": "Free sign-up in 2 minutes. Your secure client portal is ready."
+      },
+      {
+        "num": "02",
+        "icon": "📋",
+        "title": "Submit your request",
+        "desc": "Describe your travel project and upload your documents securely."
+      },
+      {
+        "num": "03",
+        "icon": "🗺️",
+        "title": "Receive your study",
+        "desc": "Our team prepares your personalised itinerary and quote within 48h."
+      },
+      {
+        "num": "04",
+        "icon": "✈️",
+        "title": "Depart with peace of mind",
+        "desc": "We handle flights, hotels, visas. All you need to do is pack."
+      }
+    ]
+  },
+  "services": {
+    "label": "Our services",
+    "title": "Everything you need to",
+    "titleAccent": "travel with ease",
+    "items": [
+      {
+        "icon": "🗓️",
+        "title": "Organised tours",
+        "desc": "Turn-key circuits to Europe and beyond. Flights, hotels, transfers and guides included. Travel in groups or with family without a worry.",
+        "tag": "Groups & families"
+      },
+      {
+        "icon": "🧭",
+        "title": "Tailor-made travel",
+        "desc": "Your trip entirely designed around your wishes, budget and dates. Unique itinerary, hand-picked accommodation, exclusive experiences.",
+        "tag": "100% personalised"
+      },
+      {
+        "icon": "📄",
+        "title": "Visa & paperwork",
+        "desc": "Full assistance for Schengen, UK, US and other visa applications. File review, document preparation, consulate appointments.",
+        "tag": "98% success rate"
+      }
+    ]
+  },
+  "destinations": {
+    "label": "Featured destinations",
+    "title": "Where do you want",
+    "titleAccent": "to go?",
+    "viewAll": "View all destinations →"
+  },
+  "why": {
+    "label": "Why choose us",
+    "title": "An agency that",
+    "titleAccent": "truly supports you",
+    "subtitle": "Not just a ticket seller. A travel partner who knows the procedures, anticipates obstacles and stays available.",
+    "features": [
+      {
+        "icon": "🔒",
+        "title": "100% secure files",
+        "desc": "Your documents (passport, ID) are encrypted and only accessible by you and our team."
+      },
+      {
+        "icon": "💬",
+        "title": "Real-time WhatsApp follow-up",
+        "desc": "Every step of your file is communicated instantly. Ask your questions directly."
+      },
+      {
+        "icon": "⚡",
+        "title": "Response within 48h guaranteed",
+        "desc": "Quote, file review or visa questions — our team responds quickly, always."
+      }
+    ],
+    "ratingLabel": "Average rating on 200+ client reviews"
+  },
+  "cta": {
+    "label": "Ready to go?",
+    "title": "Your next trip starts",
+    "titleAccent": "today",
+    "subtitle": "Create your free account, submit your file and let us build the travel experience you've been dreaming of.",
+    "primary": "Create my free account",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently asked",
+    "titleAccent": "questions",
+    "items": [
+      {
+        "q": "How does the client portal work?",
+        "a": "After signing up, you access a secure dashboard where you can submit files, upload documents, track request status and receive our responses in real time."
+      },
+      {
+        "q": "Are my documents truly secure?",
+        "a": "Yes. Your documents are encrypted (AES-256) and stored on certified servers. Only you and our team have access. They are never shared with third parties without your explicit consent."
+      },
+      {
+        "q": "How long does my file review take?",
+        "a": "We commit to responding within 48 business hours after receiving your complete file. For urgent requests, contact us directly on WhatsApp."
+      },
+      {
+        "q": "Can I travel to Europe without a prior visa?",
+        "a": "This depends on your nationality. For most West African nationals, a Schengen visa is required. We guide you from A to Z with a 98% success rate."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "We accept bank transfers, Mobile Money (MTN, Moov, Wave) and secure online payments. A deposit is required upon file confirmation."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Your trusted partner for travelling to Europe and worldwide from West Africa.",
+    "services": "Services",
+    "quickLinks": "Quick access",
+    "contact": "Contact",
+    "myAccount": "My client portal",
+    "createAccount": "Create account",
+    "contactUs": "Contact us",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "rights": "All rights reserved."
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your client portal",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign in",
+      "forgot": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "register": "Sign up for free",
+      "error": "Invalid email or password."
+    },
+    "register": {
+      "title": "Create my account",
+      "subtitle": "Access your secure client portal",
+      "fullName": "Full name",
+      "email": "Email address",
+      "phone": "Phone (with country code)",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "submit": "Create my account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in",
+      "success": "Account created! Check your email.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "dashboard": {
+    "welcome": "Hello",
+    "subtitle": "Manage your files and track your trips",
+    "newDossier": "New request",
+    "myDossiers": "My requests",
+    "noDossiers": "No requests yet",
+    "noDossiersDesc": "Submit your first travel request or visa assistance application.",
+    "statuts": {
+      "en_attente": "Pending",
+      "en_etude": "Under review",
+      "confirme": "Confirmed",
+      "paye": "Paid",
+      "termine": "Completed",
+      "annule": "Cancelled"
+    },
+    "dossier": {
+      "title": "New request",
+      "type": "Request type",
+      "types": {
+        "voyage_organise": "Organised tour",
+        "sur_mesure": "Tailor-made travel",
+        "visa": "Visa & paperwork"
+      },
+      "message": "Describe your project",
+      "messagePlaceholder": "Desired destination, dates, number of people, approximate budget...",
+      "documents": "Documents (passport, ID, etc.)",
+      "documentsHint": "Accepted files: PDF, JPG, PNG. Max 10 MB per file.",
+      "submit": "Submit my request",
+      "success": "Request submitted! You will receive a confirmation by email.",
+      "error": "Submission error. Please try again."
+    }
+  },
+  "admin": {
+    "title": "Administration",
+    "dossiers": "Files",
+    "voyages": "Trips",
+    "users": "Users",
+    "stats": {
+      "total": "Total files",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "revenue": "Est. revenue"
+    }
+  },
+
+  "catalog": {
+    "meta_title": "Travel catalogue — VoyageElite",
+    "meta_description": "Browse our organised tours and tailor-made trips.",
+    "badge": "Catalogue",
+    "title_start": "Our",
+    "title_accent": "trips",
+    "subtitle": "Organised circuits, tailor-made trips and destinations across Europe and the world.",
+    "empty_title": "Catalogue in preparation",
+    "empty_description": "Our trips will be available soon. In the meantime, contact us for a custom itinerary.",
+    "empty_cta": "Submit a request",
+    "card_days": "days",
+    "card_seats": "seats left",
+    "card_from": "Starting from",
+    "card_cta": "Book"
+  }
+}
