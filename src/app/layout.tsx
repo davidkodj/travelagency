@@ -29,6 +29,36 @@ export const metadata: Metadata = {
   description:
     "Voyages organisés, tourisme sur mesure et accompagnement visa depuis l'Afrique de l'Ouest.",
   robots: { index: true, follow: true },
+
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    shortcut: "/favicon.ico",
+  },
+
+  // Ajoutez aussi l'image Open Graph pour les partages
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    alternateLocale: "en_US",
+    siteName: "VoyageElite",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "VoyageElite — Agence de voyage",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
