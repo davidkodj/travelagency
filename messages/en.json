@@ -240,5 +240,42 @@
     "card_seats": "seats left",
     "card_from": "Starting from",
     "card_cta": "Book"
+  },
+
+  "contact": {
+    "header": {
+      "title_start": "Let's talk about your",
+      "title_highlight": "trip",
+      "subtitle": "Our team is here to answer all of your questions."
+    },
+    "info": {
+      "title": "Contact us",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "Address",
+      "location": "Lomé, Togo",
+      "whatsapp_btn": "Chat on WhatsApp"
+    },
+    "success": {
+      "title": "Message sent!",
+      "message": "Our team will reply within 24 business hours.",
+      "reset_btn": "Send another message"
+    },
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "subject": "Subject",
+      "subject_placeholder": "Visa application or travel inquiry",
+      "message": "Message",
+      "message_placeholder": "Describe your project or question in detail...",
+      "send_btn": "Send message",
+      "sending_btn": "Sending..."
+    },
+    "errors": {
+      "name": "Name required (minimum 2 characters)",
+      "email": "Invalid email address",
+      "subject": "Subject required (minimum 3 characters)",
+      "message": "Message too short (minimum 20 characters)"
+    }
   }
 }

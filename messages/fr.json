@@ -240,5 +240,42 @@
     "card_seats": "places dispo.",
     "card_from": "À partir de",
     "card_cta": "Réserver"
+  },
+
+  "contact": {
+    "header": {
+      "title_start": "Parlons de votre",
+      "title_highlight": "voyage",
+      "subtitle": "Notre équipe est disponible pour répondre à toutes vos questions."
+    },
+    "info": {
+      "title": "Nous contacter",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "Adresse",
+      "location": "Lomé, Togo",
+      "whatsapp_btn": "Discuter sur WhatsApp"
+    },
+    "success": {
+      "title": "Message envoyé !",
+      "message": "Notre équipe vous répondra sous 24h ouvrables.",
+      "reset_btn": "Envoyer un autre message"
+    },
+    "fields": {
+      "name": "Nom complet",
+      "email": "Email",
+      "subject": "Objet",
+      "subject_placeholder": "Demande de visa ou projet de voyage",
+      "message": "Message",
+      "message_placeholder": "Décrivez votre projet ou votre question en détail...",
+      "send_btn": "Envoyer le message",
+      "sending_btn": "Envoi en cours..."
+    },
+    "errors": {
+      "name": "Nom requis (2 caractères minimum)",
+      "email": "Adresse email invalide",
+      "subject": "Objet requis (3 caractères minimum)",
+      "message": "Message trop court (20 caractères minimum)"
+    }
   }
 }
