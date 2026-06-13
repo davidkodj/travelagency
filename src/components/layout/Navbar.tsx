@@ -1,10 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image"; // 1. Importation du composant Image de Next.js
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, User, LogOut, Plane } from "lucide-react";
+import { Menu, X, User, LogOut } from "lucide-react"; // On peut enlever 'Plane' si on ne s'en sert plus
 import { createClient } from "@/lib/supabase/client";
 import type { Locale } from "@/i18n";
 import { cn } from "@/lib/utils";
@@ -96,13 +97,18 @@ export default function Navbar({ locale }: Props) {
     >
       <div className="container max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          {/* Logo Section */}
           <Link href={`/${locale}`} className="flex items-center gap-2.5 group">
-            <div className="relative w-8 h-8">
-              <div className="absolute inset-0 rounded-lg bg-copper-gradient opacity-90 group-hover:opacity-100 transition-opacity" />
-              <div className="absolute inset-0 rounded-lg flex items-center justify-center">
-                <Plane className="w-4 h-4 text-abyss" />
-              </div>
+            <div className="relative w-8 h-8 flex items-center justify-center">
+              {/* 2. Intégration du composant Image */}
+              <Image
+                src="/images/logo.png" // Remplace par le chemin réel de ton logo (.svg, .png)
+                alt="VoyageElite Logo"
+                width={32} // Équivalent à w-8
+                height={32} // Équivalent à h-8
+                priority // Charge le logo en priorité absolue (LCP)
+                className="object-contain group-hover:scale-105 transition-transform duration-300"
+              />
             </div>
             <span className="font-display font-bold text-lg text-ivory tracking-tight">
               Voyage<span className="gradient-text">Elite</span>
