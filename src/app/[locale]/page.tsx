@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : "VoyageElite — Travel Agency Europe & Worldwide from Africa",
     description:
       locale === "fr"
-        ? "Voyages organisés, tourisme sur mesure et accompagnement visa Schengen. Votre partenaire de confiance depuis Lomé, Togo."
-        : "Organised tours, tailor-made travel and Schengen visa assistance. Your trusted partner from Lomé, Togo.",
+        ? "Voyages organisés, tourisme sur mesure et accompagnement visa Schengen. Votre partenaire de confiance depuis Bruxelles, Belgique."
+        : "Organised tours, tailor-made travel and Schengen visa assistance. Your trusted partner from Bruxelles, Belgique.",
   };
 }
 

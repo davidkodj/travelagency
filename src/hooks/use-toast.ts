@@ -1,72 +1,111 @@
-'use client'
-import * as React from 'react'
-import type { ToastProps } from '@/components/ui/toast'
+"use client";
+import * as React from "react";
+import type { ToastProps } from "@/components/ui/toast";
 
-const TOAST_LIMIT = 5
-const TOAST_REMOVE_DELAY = 4000
+const TOAST_LIMIT = 5;
+const TOAST_REMOVE_DELAY = 4000;
 
 type ToasterToast = ToastProps & {
-  id: string
-  title?: React.ReactNode
-  description?: React.ReactNode
+  id: string;
+  title?: React.ReactNode;
+  description?: React.ReactNode;
+};
+
+let count = 0;
+function genId() {
+  return (++count).toString();
 }
 
-let count = 0
-function genId() { return (++count).toString() }
-
 type Action =
-  | { type: 'ADD_TOAST'; toast: ToasterToast }
-  | { type: 'DISMISS_TOAST'; toastId?: string }
-  | { type: 'REMOVE_TOAST'; toastId?: string }
+  | { type: "ADD_TOAST"; toast: ToasterToast }
+  | { type: "DISMISS_TOAST"; toastId?: string }
+  | { type: "REMOVE_TOAST"; toastId?: string };
 
-interface State { toasts: ToasterToast[] }
+interface State {
+  toasts: ToasterToast[];
+}
 
-const toastTimeouts = new Map<string, ReturnType<typeof setTimeout>>()
-const listeners: Array<(state: State) => void> = []
-let memoryState: State = { toasts: [] }
+const toastTimeouts = new Map<string, ReturnType<typeof setTimeout>>();
+const listeners: Array<(state: State) => void> = [];
+let memoryState: State = { toasts: [] };
 
 function reducer(state: State, action: Action): State {
   switch (action.type) {
-    case 'ADD_TOAST':
-      return { ...state, toasts: [action.toast, ...state.toasts].slice(0, TOAST_LIMIT) }
-    case 'DISMISS_TOAST': {
-      const { toastId } = action
-      const ids = toastId ? [toastId] : state.toasts.map(t => t.id)
-      ids.forEach(id => {
+    case "ADD_TOAST":
+      return {
+        ...state,
+        toasts: [action.toast, ...state.toasts].slice(0, TOAST_LIMIT),
+      };
+    case "DISMISS_TOAST": {
+      const { toastId } = action;
+      const ids = toastId ? [toastId] : state.toasts.map((t) => t.id);
+      ids.forEach((id) => {
         if (!toastTimeouts.has(id)) {
-          toastTimeouts.set(id, setTimeout(() => {
-            toastTimeouts.delete(id)
-            dispatch({ type: 'REMOVE_TOAST', toastId: id })
-          }, TOAST_REMOVE_DELAY))
+          toastTimeouts.set(
+            id,
+            setTimeout(() => {
+              toastTimeouts.delete(id);
+              dispatch({ type: "REMOVE_TOAST", toastId: id });
+            }, TOAST_REMOVE_DELAY),
+          );
         }
-      })
-      return { ...state, toasts: state.toasts.map(t => ids.includes(t.id) ? { ...t, open: false } : t) }
+      });
+      return {
+        ...state,
+        toasts: state.toasts.map((t) =>
+          ids.includes(t.id) ? { ...t, open: false } : t,
+        ),
+      };
     }
-    case 'REMOVE_TOAST':
-      return { ...state, toasts: action.toastId == null ? [] : state.toasts.filter(t => t.id !== action.toastId) }
-    default: return state
+    case "REMOVE_TOAST":
+      return {
+        ...state,
+        toasts:
+          action.toastId == null
+            ? []
+            : state.toasts.filter((t) => t.id !== action.toastId),
+      };
+    default:
+      return state;
   }
 }
 
 function dispatch(action: Action) {
-  memoryState = reducer(memoryState, action)
-  listeners.forEach(l => l(memoryState))
+  memoryState = reducer(memoryState, action);
+  listeners.forEach((l) => l(memoryState));
 }
 
-function toast(props: Omit<ToasterToast, 'id'>) {
-  const id = genId()
-  const dismiss = () => dispatch({ type: 'DISMISS_TOAST', toastId: id })
-  dispatch({ type: 'ADD_TOAST', toast: { ...props, id, open: true, onOpenChange: (open) => { if (!open) dismiss() } } })
-  return { id, dismiss }
+function toast(props: Omit<ToasterToast, "id">) {
+  const id = genId();
+  const dismiss = () => dispatch({ type: "DISMISS_TOAST", toastId: id });
+  dispatch({
+    type: "ADD_TOAST",
+    toast: {
+      ...props,
+      id,
+      open: true,
+      onOpenChange: (open) => {
+        if (!open) dismiss();
+      },
+    },
+  });
+  return { id, dismiss };
 }
 
 function useToast() {
-  const [state, setState] = React.useState<State>(memoryState)
+  const [state, setState] = React.useState<State>(memoryState);
   React.useEffect(() => {
-    listeners.push(setState)
-    return () => { const i = listeners.indexOf(setState); if (i > -1) listeners.splice(i, 1) }
-  }, [])
-  return { ...state, toast, dismiss: (id?: string) => dispatch({ type: 'DISMISS_TOAST', toastId: id }) }
+    listeners.push(setState);
+    return () => {
+      const i = listeners.indexOf(setState);
+      if (i > -1) listeners.splice(i, 1);
+    };
+  }, []);
+  return {
+    ...state,
+    toast,
+    dismiss: (id?: string) => dispatch({ type: "DISMISS_TOAST", toastId: id }),
+  };
 }
 
-export { useToast, toast }
+export { useToast, toast };

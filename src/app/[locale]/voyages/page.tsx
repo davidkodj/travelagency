@@ -155,7 +155,7 @@ export default async function VoyagesPage({ params }: Props) {
                             {v.prix.toLocaleString()}
                           </span>
                           <span className="text-xs font-semibold text-copper">
-                            XOF
+                            EUR
                           </span>
                         </div>
                       </div>
