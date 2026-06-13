@@ -179,6 +179,10 @@
       "login": "Sign in",
       "success": "Account created! Check your email.",
       "error": "An error occurred. Please try again."
+    },
+    "success": {
+      "valider": "Account create! Redirect you to your Submission area",
+      "dash": "Submission area"
     }
   },
   "dashboard": {
@@ -276,6 +280,69 @@
       "email": "Invalid email address",
       "subject": "Subject required (minimum 3 characters)",
       "message": "Message too short (minimum 20 characters)"
+    }
+  },
+
+  "dashboard": {
+    "header": {
+      "badge": "Client space",
+      "welcome": "Hello, {name}",
+      "fallback_name": "Traveler",
+      "new_dossier_btn": "New dossier"
+    },
+    "stats": {
+      "total": "Total",
+      "pending": "Pending",
+      "confirmed": "Confirmed"
+    },
+    "status": {
+      "pending": "Pending",
+      "studying": "Under review",
+      "confirmed": "Confirmed",
+      "paid": "Paid",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "types": {
+      "package": "Package tour",
+      "custom": "Custom trip",
+      "visa": "Visa & processes"
+    },
+    "list": {
+      "title": "My dossiers",
+      "empty_title": "No dossiers found",
+      "empty_desc": "Submit your first trip request or visa assistance application.",
+      "create_btn": "Create a dossier"
+    }
+  },
+  "nouveauDossier": {
+    "actions": { "back": "Back" },
+    "header": {
+      "badge": "New dossier",
+      "title": "Your application"
+    },
+    "types": {
+      "package": { "label": "Package tour", "desc": "Turnkey itinerary" },
+      "custom": { "label": "Custom trip", "desc": "Fully personalized" },
+      "visa": { "label": "Visa & processes", "desc": "Visa assistance" }
+    },
+    "form": {
+      "type_title": "Application type",
+      "desc_title": "Describe your project",
+      "desc_placeholder": "Desired destination, dates, number of people, approx budget, specific needs...",
+      "docs_title": "Documents",
+      "docs_subtitle": "Passport, ID card, etc. PDF, JPG, PNG — max 10MB",
+      "upload_click": "Click to select files",
+      "submit_btn": "Submit my application"
+    },
+    "success": {
+      "title": "Application submitted!",
+      "message": "Email confirmation sent. Our team will contact you within 48 hours.",
+      "dashboard_btn": "Dashboard"
+    },
+    "errors": {
+      "message_short": "Describe your project (min. 20 characters)",
+      "submit_failed": "Submission error. Please try again."
     }
   }
 }

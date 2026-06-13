@@ -35,6 +35,7 @@ type F = z.infer<typeof schema>;
 
 export default function RegisterPage() {
   const t = useTranslations("auth.register");
+  const r = useTranslations("auth.success");
   const locale = useLocale();
   const supabase = createClient();
   const [showPwd, setShowPwd] = useState(false);
@@ -96,12 +97,10 @@ export default function RegisterPage() {
           <h2 className="font-display font-bold text-xl text-ivory mb-2">
             {t("success")}
           </h2>
-          <p className="text-ivory-muted text-sm mb-8">
-            Vérifiez votre boîte mail pour activer votre compte.
-          </p>
-          <Link href={`/${locale}/auth/login`}>
+          <p className="text-ivory-muted text-sm mb-8">{r("valider")}</p>
+          <Link href={`/${locale}/dashboard`}>
             <Button variant="copper" className="w-full">
-              {t("login")}
+              {r("dash")}
             </Button>
           </Link>
         </motion.div>

@@ -179,6 +179,10 @@
       "login": "Se connecter",
       "success": "Compte créé ! Vérifiez votre email.",
       "error": "Une erreur est survenue. Réessayez."
+    },
+    "success": {
+      "valider": "Compte creer ! Rediriger vous vers votre espace de Soumission",
+      "dash": "Espace soumission"
     }
   },
   "dashboard": {
@@ -276,6 +280,69 @@
       "email": "Adresse email invalide",
       "subject": "Objet requis (3 caractères minimum)",
       "message": "Message trop court (20 caractères minimum)"
+    }
+  },
+
+  "dashboard": {
+    "header": {
+      "badge": "Espace client",
+      "welcome": "Bonjour, {name}",
+      "fallback_name": "Voyageeur",
+      "new_dossier_btn": "Nouveau dossier"
+    },
+    "stats": {
+      "total": "Total",
+      "pending": "En attente",
+      "confirmed": "Confirmés"
+    },
+    "status": {
+      "pending": "En attente",
+      "studying": "En étude",
+      "confirmed": "Confirmé",
+      "paid": "Payé",
+      "completed": "Terminé",
+      "cancelled": "Annulé"
+    },
+    "types": {
+      "package": "Voyage organisé",
+      "custom": "Sur mesure",
+      "visa": "Visa & démarches"
+    },
+    "list": {
+      "title": "Mes dossiers",
+      "empty_title": "Aucun dossier",
+      "empty_desc": "Soumettez votre première demande de voyage ou d'accompagnement visa.",
+      "create_btn": "Créer un dossier"
+    }
+  },
+  "nouveauDossier": {
+    "actions": { "back": "Retour" },
+    "header": {
+      "badge": "Nouveau dossier",
+      "title": "Votre demande"
+    },
+    "types": {
+      "package": { "label": "Voyage organisé", "desc": "Circuit clé en main" },
+      "custom": { "label": "Sur mesure", "desc": "Entièrement personnalisé" },
+      "visa": { "label": "Visa & démarches", "desc": "Accompagnement visa" }
+    },
+    "form": {
+      "type_title": "Type de demande",
+      "desc_title": "Décrivez votre projet",
+      "desc_placeholder": "Destination souhaitée, dates, nombre de personnes, budget approximatif, besoins spécifiques...",
+      "docs_title": "Documents",
+      "docs_subtitle": "Passeport, pièce d'identité, etc. PDF, JPG, PNG — max 10 Mo",
+      "upload_click": "Cliquez pour sélectionner des fichiers",
+      "submit_btn": "Soumettre mon dossier"
+    },
+    "success": {
+      "title": "Dossier soumis !",
+      "message": "Confirmation par email envoyée. Notre équipe vous recontacte sous 48h.",
+      "dashboard_btn": "Tableau de bord"
+    },
+    "errors": {
+      "message_short": "Décrivez votre projet (min. 20 caractères)",
+      "submit_failed": "Erreur lors de la soumission. Réessayez."
     }
   }
 }
